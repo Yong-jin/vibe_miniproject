@@ -1,0 +1,25 @@
+# Secrets and machine-local credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated outputs
+node_modules/
+.next/
+out/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.log
+
+# Machine-local deployment and database state
+.vercel/
+supabase/.temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.vercel
